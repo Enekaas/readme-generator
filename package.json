@@ -1,18 +1,18 @@
 {
-  "name": "promptproject",
+  "name": "readme-generator",
   "version": "1.0.2",
-  "description": "signup form script based on terminal | writed with Nodejs |",
+  "description": "readme-generator | writed with Nodejs |",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Enekaas"
+    "url": "https://github.com/Enekaas/readme-generator.git"
   },
   "keywords": [
-    "signup",
-    "form",
+    "readme",
+    "generator",
     "terminal",
     "nodejs"
   ],

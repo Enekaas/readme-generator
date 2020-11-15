@@ -44,13 +44,7 @@ rl.question(" 👤 | > Enter Your Name: ", (name) => {
                   for (let i of keywords.split(" ")) {
                     person.keywords.push(i);
                   }
-                  stream.write(`👋 Im ${name}\n===========\n\n## Welcome To ${appName}!\n\n > Hi my name is ${name} and i developer of ${appName} :)\nRepo of This Project: ${repo}\n* # For Run:\n
-                        \`\`\`bash
-                            git clone ${repo}\n
-                            cd ${repo.split('/').splice(-1)}\n
-                            ${run}
-                        \`\`\`\n\n* Keywords:\n#${person.keywords}\n\n### - Made With ❤ By Readme-Generator
-    					`);
+                  stream.write(`👋 Im ${name}\n===========\n\n## Welcome To ${appName}!\n\n > Hi my name is ${name} and i developer of ${appName} :)\nRepo of This Project: ${repo}\n* # For Run:\n\`\`\`bash\ngit clone ${repo}\ncd ${repo.split('/').splice(-1)}\n${run}\`\`\`\n\n* Keywords:\n#${person.keywords}\n\n### - Made With ❤ By [Readme-Generator](https://github.com/Enekaas/readme-generator)`);
                   stream.close();
                   rl.close();
                 }
