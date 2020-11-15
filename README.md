@@ -9,7 +9,9 @@ Repo of This Project: https://github.com/Enekaas/readme-generator
 ```bash
 git clone https://github.com/Enekaas/readme-generator
 cd readme-generator
-npm start```
+npm start
+```
+
 
 * Keywords:
 #readme,generator
