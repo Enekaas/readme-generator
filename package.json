@@ -1,0 +1,21 @@
+{
+  "name": "promptproject",
+  "version": "1.0.2",
+  "description": "signup form script based on terminal | writed with Nodejs |",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Enekaas"
+  },
+  "keywords": [
+    "signup",
+    "form",
+    "terminal",
+    "nodejs"
+  ],
+  "author": "Alireza",
+  "license": "ISC"
+}
